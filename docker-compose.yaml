@@ -10,6 +10,7 @@ services:
         volumes:
             - ./data:/data
             - ./letsencrypt:/etc/letsencrypt
+            - /home2/de/POSSIBILI/zz_INFORMATICA/SERVER/docker/Guide/404:/data/error-page
         networks:
             - net1
 
