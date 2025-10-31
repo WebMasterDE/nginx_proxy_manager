@@ -18,4 +18,4 @@ services:
 networks:
   net1:
     name: frontend_internalnet
-    external: false
+    external: true
